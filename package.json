@@ -5,6 +5,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "deploy-github-pages": "npx gh-pages -d dist",
+    "deploy-surge-sh": " cd dist && surge --domain svelte-corbaz.surge.sh && cd ..",
     "serve": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json"
   },
@@ -12,6 +14,7 @@
     "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
     "@tsconfig/svelte": "^2.0.1",
     "autoprefixer": "^10.3.7",
+    "gh-pages": "^3.2.3",
     "postcss": "^8.3.11",
     "svelte": "^3.44.0",
     "svelte-check": "^2.2.7",

@@ -5,24 +5,9 @@
 </script>
 
 <main>
-  <div class="p-20 bg-cover card bg-base-200"
-       style="background-image: url('https://www.google.com/images/branding/googlelogo/2x/googlelogo_light_color_92x30dp.png');">
-    <button class="btn glass">Glass button</button>
-  </div>
-  <img class="mx-auto" src={logo} alt="Svelte Logo" />
-  <h1 class="bg-indigo-500">Vite-Svelte-Typescript-Taildwind!</h1>
-
+  <h1>Counter</h1>
+  <hr><br>
   <Counter />
-
-  <p>
-    Visit <a href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte
-    apps.
-  </p>
-
-  <p>
-    Check out <a href="https://github.com/sveltejs/kit#readme">SvelteKit</a> for
-    the officially supported framework, also powered by Vite!
-  </p>
 </main>
 
 <style>

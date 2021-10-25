@@ -60,4 +60,7 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/corbaz/svelte-tailwind-mongodb.git
 git push -u origin main
-...
+
+```
+[![Netlify Status](https://api.netlify.com/api/v1/badges/074a2dac-37fc-4818-9fec-2d55ee2328bc/deploy-status)](https://app.netlify.com/sites/vite-svelte-tailwind-mongodb/deploys)
+
