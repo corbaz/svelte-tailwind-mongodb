@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "github push" : "git add . && git commit -m 'backup-rapido' && git push",
     "deploy-github-pages": "npx gh-pages -d dist",
     "deploy-surge-sh": " cd dist && surge --domain svelte-corbaz.surge.sh && cd ..",
     "serve": "vite preview",
